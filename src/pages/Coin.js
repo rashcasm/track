@@ -83,7 +83,7 @@ function Coin() {
       ) : error ? (
         <div>
           <h1 style={{ textAlign: "center" }}>
-            Sorry, Couldn't find the coin you're looking for 😞
+            Not found.
           </h1>
           <div
             style={{
