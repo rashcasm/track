@@ -6,8 +6,8 @@ import Compare from "./pages/Compare";
 import Dashboard from "./pages/Dashboard";
 import Home from "./pages/Home";
 import Watchlist from "./pages/Watchlist";
-import { ToastContainer } from "react-toastify";
-import "react-toastify/dist/ReactToastify.css";
+// import { ToastContainer } from "react-toastify";
+// import "react-toastify/dist/ReactToastify.css";
 import { useEffect } from "react";
 
 const tele = window.Telegram.WebApp;
@@ -63,7 +63,7 @@ function App() {
     <div className="App">
       <div className="cursor" id="cursor" />
       <div className="cursor-pointer" id="cursor-pointer" />
-      <ToastContainer />
+      {/* <ToastContainer /> */}
       <ThemeProvider theme={theme}>
         <BrowserRouter>
           <Routes>
